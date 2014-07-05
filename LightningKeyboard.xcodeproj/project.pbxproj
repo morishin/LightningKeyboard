@@ -17,9 +17,6 @@
 		C8DE14A8196801AD0049545B /* LightController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DE1499196801AD0049545B /* LightController.m */; };
 		C8DE14A9196801AD0049545B /* LightningKeyboard-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8DE149A196801AD0049545B /* LightningKeyboard-Info.plist */; };
 		C8DE14AA196801AD0049545B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DE149D196801AD0049545B /* main.m */; };
-		C8DE14AB196801AD0049545B /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8DE149E196801AD0049545B /* MainView.xib */; };
-		C8DE14AC196801AD0049545B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DE14A0196801AD0049545B /* MainViewController.m */; };
-		C8DE14AD196801AD0049545B /* WindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DE14A2196801AD0049545B /* WindowManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +51,6 @@
 		C8DE149B196801AD0049545B /* LightningKeyboard-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LightningKeyboard-Prefix.pch"; sourceTree = "<group>"; };
 		C8DE149C196801AD0049545B /* lmucontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lmucontroller.h; sourceTree = "<group>"; };
 		C8DE149D196801AD0049545B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C8DE149E196801AD0049545B /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
-		C8DE149F196801AD0049545B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		C8DE14A0196801AD0049545B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		C8DE14A1196801AD0049545B /* WindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowManager.h; sourceTree = "<group>"; };
-		C8DE14A2196801AD0049545B /* WindowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,19 +117,14 @@
 		C8DE148E196801AD0049545B /* LightningKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				C8DE149C196801AD0049545B /* lmucontroller.h */,
 				C8DE148F196801AD0049545B /* AppDelegate.h */,
 				C8DE1490196801AD0049545B /* AppDelegate.m */,
-				C8DE1495196801AD0049545B /* Images.xcassets */,
 				C8DE1496196801AD0049545B /* KeyMonitor.h */,
 				C8DE1497196801AD0049545B /* KeyMonitor.m */,
 				C8DE1498196801AD0049545B /* LightController.h */,
 				C8DE1499196801AD0049545B /* LightController.m */,
-				C8DE149C196801AD0049545B /* lmucontroller.h */,
-				C8DE149E196801AD0049545B /* MainView.xib */,
-				C8DE149F196801AD0049545B /* MainViewController.h */,
-				C8DE14A0196801AD0049545B /* MainViewController.m */,
-				C8DE14A1196801AD0049545B /* WindowManager.h */,
-				C8DE14A2196801AD0049545B /* WindowManager.m */,
+				C8DE1495196801AD0049545B /* Images.xcassets */,
 				C8DE14AE196802380049545B /* SupportingFiles */,
 			);
 			path = LightningKeyboard;
@@ -233,7 +220,6 @@
 				C8DE14A9196801AD0049545B /* LightningKeyboard-Info.plist in Resources */,
 				C8DE14A6196801AD0049545B /* Images.xcassets in Resources */,
 				C8DE14A5196801AD0049545B /* InfoPlist.strings in Resources */,
-				C8DE14AB196801AD0049545B /* MainView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +240,6 @@
 				C8DE14A7196801AD0049545B /* KeyMonitor.m in Sources */,
 				C8DE14A8196801AD0049545B /* LightController.m in Sources */,
 				C8DE14AA196801AD0049545B /* main.m in Sources */,
-				C8DE14AD196801AD0049545B /* WindowManager.m in Sources */,
-				C8DE14AC196801AD0049545B /* MainViewController.m in Sources */,
 				C8DE14A3196801AD0049545B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,10 +19,10 @@
     if (self) {
         eventMonitor = [NSEvent addGlobalMonitorForEventsMatchingMask:NSKeyDownMask
                                                               handler:^(NSEvent *event) {
-                                                                  if (self.delegate != nil && [self.delegate respondsToSelector:@selector(keyDown:)]) {
-                                                                      [self.delegate keyDown:event.keyCode];
-                                                                  }
-                                                              }];
+                              if (self.delegate != nil && [self.delegate respondsToSelector:@selector(keyDown:)]) {
+                                  [self.delegate keyDown:event.keyCode];
+                              }
+                          }];
     }
     return self;
 }

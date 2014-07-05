@@ -7,14 +7,12 @@
 
 #import "AppDelegate.h"
 #import "LightController.h"
-#import "WindowManager.h"
 
 //#define MENU_ITEM_OPEN @"Open"
 #define MENU_ITEM_QUIT @"Quit"
 
 @interface AppDelegate () {
     LightController *lightController;
-    WindowManager *windowManager;
     NSStatusItem *statusItem;
 }
 
@@ -33,7 +31,6 @@
     }
     
     lightController = [[LightController alloc] init];
-    windowManager = [[WindowManager alloc] init];
     [self setupStatusItem];
 }
 
@@ -44,16 +41,8 @@
     [statusItem setHighlightMode:YES];
     [statusItem setImage:[NSImage imageNamed:@"MenuIcon"]];
     [statusItem setMenu:statusMenu];
-//    [statusMenu addItemWithTitle:MENU_ITEM_OPEN action:@selector(openWindow:) keyEquivalent:@""];
     [statusMenu addItemWithTitle:MENU_ITEM_QUIT action:@selector(terminate:) keyEquivalent:@""];
 }
-
-//- (void)openWindow:(id)sender {
-//    NSString *itemName = ((NSMenuItem *)sender).title;
-//    if ([itemName isEqualToString:MENU_ITEM_OPEN]) {
-//        [windowManager openMainWindow];
-//    }
-//}
 
 
 - (void)applicationWillTerminate:(NSNotification *)notification {
