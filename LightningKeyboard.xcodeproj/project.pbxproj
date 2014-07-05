@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C87E61F419672AC400440F5A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87E61F319672AC400440F5A /* Cocoa.framework */; };
+		C87E621319672AC400440F5A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87E621219672AC400440F5A /* XCTest.framework */; };
+		C87E621419672AC400440F5A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87E61F319672AC400440F5A /* Cocoa.framework */; };
+		C8DE14A3196801AD0049545B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DE1490196801AD0049545B /* AppDelegate.m */; };
+		C8DE14A5196801AD0049545B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8DE1493196801AD0049545B /* InfoPlist.strings */; };
+		C8DE14A6196801AD0049545B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DE1495196801AD0049545B /* Images.xcassets */; };
+		C8DE14A7196801AD0049545B /* KeyMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DE1497196801AD0049545B /* KeyMonitor.m */; };
+		C8DE14A8196801AD0049545B /* LightController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DE1499196801AD0049545B /* LightController.m */; };
+		C8DE14A9196801AD0049545B /* LightningKeyboard-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8DE149A196801AD0049545B /* LightningKeyboard-Info.plist */; };
+		C8DE14AA196801AD0049545B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DE149D196801AD0049545B /* main.m */; };
+		C8DE14AB196801AD0049545B /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8DE149E196801AD0049545B /* MainView.xib */; };
+		C8DE14AC196801AD0049545B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DE14A0196801AD0049545B /* MainViewController.m */; };
+		C8DE14AD196801AD0049545B /* WindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DE14A2196801AD0049545B /* WindowManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C87E621519672AC400440F5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87E61E819672AC300440F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87E61EF19672AC400440F5A;
+			remoteInfo = LightningKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C87E61F019672AC400440F5A /* LightningKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightningKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87E61F319672AC400440F5A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C87E61F619672AC400440F5A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C87E61F719672AC400440F5A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C87E61F819672AC400440F5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C87E621119672AC400440F5A /* LightningKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightningKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87E621219672AC400440F5A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C87E622E1967331100440F5A /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		C87E62301967333600440F5A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C8DE148F196801AD0049545B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8DE1490196801AD0049545B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8DE1494196801AD0049545B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8DE1495196801AD0049545B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C8DE1496196801AD0049545B /* KeyMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyMonitor.h; sourceTree = "<group>"; };
+		C8DE1497196801AD0049545B /* KeyMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyMonitor.m; sourceTree = "<group>"; };
+		C8DE1498196801AD0049545B /* LightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightController.h; sourceTree = "<group>"; };
+		C8DE1499196801AD0049545B /* LightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightController.m; sourceTree = "<group>"; };
+		C8DE149A196801AD0049545B /* LightningKeyboard-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LightningKeyboard-Info.plist"; sourceTree = "<group>"; };
+		C8DE149B196801AD0049545B /* LightningKeyboard-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LightningKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		C8DE149C196801AD0049545B /* lmucontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lmucontroller.h; sourceTree = "<group>"; };
+		C8DE149D196801AD0049545B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8DE149E196801AD0049545B /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		C8DE149F196801AD0049545B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C8DE14A0196801AD0049545B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C8DE14A1196801AD0049545B /* WindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowManager.h; sourceTree = "<group>"; };
+		C8DE14A2196801AD0049545B /* WindowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87E61ED19672AC400440F5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87E61F419672AC400440F5A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E620E19672AC400440F5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87E621419672AC400440F5A /* Cocoa.framework in Frameworks */,
+				C87E621319672AC400440F5A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C87E61E719672AC300440F5A = {
+			isa = PBXGroup;
+			children = (
+				C8DE148E196801AD0049545B /* LightningKeyboard */,
+				C87E61F219672AC400440F5A /* Frameworks */,
+				C87E61F119672AC400440F5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C87E61F119672AC400440F5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87E61F019672AC400440F5A /* LightningKeyboard.app */,
+				C87E621119672AC400440F5A /* LightningKeyboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87E61F219672AC400440F5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C87E62301967333600440F5A /* CoreFoundation.framework */,
+				C87E622E1967331100440F5A /* IOKit.framework */,
+				C87E61F319672AC400440F5A /* Cocoa.framework */,
+				C87E621219672AC400440F5A /* XCTest.framework */,
+				C87E61F519672AC400440F5A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C87E61F519672AC400440F5A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C87E61F619672AC400440F5A /* AppKit.framework */,
+				C87E61F719672AC400440F5A /* CoreData.framework */,
+				C87E61F819672AC400440F5A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C8DE148E196801AD0049545B /* LightningKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE148F196801AD0049545B /* AppDelegate.h */,
+				C8DE1490196801AD0049545B /* AppDelegate.m */,
+				C8DE1495196801AD0049545B /* Images.xcassets */,
+				C8DE1496196801AD0049545B /* KeyMonitor.h */,
+				C8DE1497196801AD0049545B /* KeyMonitor.m */,
+				C8DE1498196801AD0049545B /* LightController.h */,
+				C8DE1499196801AD0049545B /* LightController.m */,
+				C8DE149C196801AD0049545B /* lmucontroller.h */,
+				C8DE149E196801AD0049545B /* MainView.xib */,
+				C8DE149F196801AD0049545B /* MainViewController.h */,
+				C8DE14A0196801AD0049545B /* MainViewController.m */,
+				C8DE14A1196801AD0049545B /* WindowManager.h */,
+				C8DE14A2196801AD0049545B /* WindowManager.m */,
+				C8DE14AE196802380049545B /* SupportingFiles */,
+			);
+			path = LightningKeyboard;
+			sourceTree = "<group>";
+		};
+		C8DE14AE196802380049545B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE149A196801AD0049545B /* LightningKeyboard-Info.plist */,
+				C8DE149B196801AD0049545B /* LightningKeyboard-Prefix.pch */,
+				C8DE1493196801AD0049545B /* InfoPlist.strings */,
+				C8DE149D196801AD0049545B /* main.m */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87E61EF19672AC400440F5A /* LightningKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87E622119672AC400440F5A /* Build configuration list for PBXNativeTarget "LightningKeyboard" */;
+			buildPhases = (
+				C87E61EC19672AC400440F5A /* Sources */,
+				C87E61ED19672AC400440F5A /* Frameworks */,
+				C87E61EE19672AC400440F5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightningKeyboard;
+			productName = LightningKey;
+			productReference = C87E61F019672AC400440F5A /* LightningKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C87E621019672AC400440F5A /* LightningKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87E622419672AC400440F5A /* Build configuration list for PBXNativeTarget "LightningKeyboardTests" */;
+			buildPhases = (
+				C87E620D19672AC400440F5A /* Sources */,
+				C87E620E19672AC400440F5A /* Frameworks */,
+				C87E620F19672AC400440F5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87E621619672AC400440F5A /* PBXTargetDependency */,
+			);
+			name = LightningKeyboardTests;
+			productName = LightningKeyTests;
+			productReference = C87E621119672AC400440F5A /* LightningKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87E61E819672AC300440F5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Shintaro Morikawa";
+				TargetAttributes = {
+					C87E621019672AC400440F5A = {
+						TestTargetID = C87E61EF19672AC400440F5A;
+					};
+				};
+			};
+			buildConfigurationList = C87E61EB19672AC300440F5A /* Build configuration list for PBXProject "LightningKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C87E61E719672AC300440F5A;
+			productRefGroup = C87E61F119672AC400440F5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87E61EF19672AC400440F5A /* LightningKeyboard */,
+				C87E621019672AC400440F5A /* LightningKeyboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C87E61EE19672AC400440F5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DE14A9196801AD0049545B /* LightningKeyboard-Info.plist in Resources */,
+				C8DE14A6196801AD0049545B /* Images.xcassets in Resources */,
+				C8DE14A5196801AD0049545B /* InfoPlist.strings in Resources */,
+				C8DE14AB196801AD0049545B /* MainView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E620F19672AC400440F5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87E61EC19672AC400440F5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DE14A7196801AD0049545B /* KeyMonitor.m in Sources */,
+				C8DE14A8196801AD0049545B /* LightController.m in Sources */,
+				C8DE14AA196801AD0049545B /* main.m in Sources */,
+				C8DE14AD196801AD0049545B /* WindowManager.m in Sources */,
+				C8DE14AC196801AD0049545B /* MainViewController.m in Sources */,
+				C8DE14A3196801AD0049545B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E620D19672AC400440F5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C87E621619672AC400440F5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87E61EF19672AC400440F5A /* LightningKeyboard */;
+			targetProxy = C87E621519672AC400440F5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8DE1493196801AD0049545B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8DE1494196801AD0049545B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C87E621F19672AC400440F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C87E622019672AC400440F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C87E622219672AC400440F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightningKeyboard/LightningKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "LightningKeyboard/LightningKeyboard-info.plist";
+				PRODUCT_NAME = LightningKeyboard;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C87E622319672AC400440F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightningKeyboard/LightningKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "LightningKeyboard/LightningKeyboard-info.plist";
+				PRODUCT_NAME = LightningKeyboard;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C87E622519672AC400440F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LightningKey.app/Contents/MacOS/LightningKey";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightningKey/LightningKey-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LightningKeyTests/LightningKeyboardTests-Info.plist";
+				PRODUCT_NAME = LightningKeyboardTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C87E622619672AC400440F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LightningKey.app/Contents/MacOS/LightningKey";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightningKey/LightningKey-Prefix.pch";
+				INFOPLIST_FILE = "LightningKeyTests/LightningKeyboardTests-Info.plist";
+				PRODUCT_NAME = LightningKeyboardTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87E61EB19672AC300440F5A /* Build configuration list for PBXProject "LightningKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87E621F19672AC400440F5A /* Debug */,
+				C87E622019672AC400440F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87E622119672AC400440F5A /* Build configuration list for PBXNativeTarget "LightningKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87E622219672AC400440F5A /* Debug */,
+				C87E622319672AC400440F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87E622419672AC400440F5A /* Build configuration list for PBXNativeTarget "LightningKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87E622519672AC400440F5A /* Debug */,
+				C87E622619672AC400440F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C87E61E819672AC300440F5A /* Project object */;
+}
