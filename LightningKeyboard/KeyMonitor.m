@@ -14,9 +14,9 @@
 
 @implementation KeyMonitor
 
-- (id)init {
+- (instancetype)init {
     self = [super init];
-    if (self) {
+    if (self != nil) {
         eventMonitor = [NSEvent addGlobalMonitorForEventsMatchingMask:NSKeyDownMask
                                                               handler:^(NSEvent *event) {
                               if (self.delegate != nil && [self.delegate respondsToSelector:@selector(keyDown:)]) {

@@ -8,9 +8,6 @@
 #import "AppDelegate.h"
 #import "LightController.h"
 
-//#define MENU_ITEM_OPEN @"Open"
-#define MENU_ITEM_QUIT @"Quit"
-
 @interface AppDelegate () {
     LightController *lightController;
     NSStatusItem *statusItem;
@@ -30,22 +27,18 @@
         }
     }
     
-    lightController = [[LightController alloc] init];
+    lightController = [LightController new];
     [self setupStatusItem];
 }
 
 - (void)setupStatusItem {
-    NSMenu *statusMenu = [[NSMenu alloc] init];
+    NSMenu *statusMenu = [NSMenu new];
     NSStatusBar *systemStatusBar = [NSStatusBar systemStatusBar];
     statusItem = [systemStatusBar statusItemWithLength:NSVariableStatusItemLength];
     [statusItem setHighlightMode:YES];
     [statusItem setImage:[NSImage imageNamed:@"MenuIcon"]];
     [statusItem setMenu:statusMenu];
-    [statusMenu addItemWithTitle:MENU_ITEM_QUIT action:@selector(terminate:) keyEquivalent:@""];
-}
-
-
-- (void)applicationWillTerminate:(NSNotification *)notification {
+    [statusMenu addItemWithTitle:@"Quit" action:@selector(terminate:) keyEquivalent:@""];
 }
 
 @end

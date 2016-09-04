@@ -49,7 +49,7 @@
 		C8DE1499196801AD0049545B /* LightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightController.m; sourceTree = "<group>"; };
 		C8DE149A196801AD0049545B /* LightningKeyboard-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LightningKeyboard-Info.plist"; sourceTree = "<group>"; };
 		C8DE149B196801AD0049545B /* LightningKeyboard-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LightningKeyboard-Prefix.pch"; sourceTree = "<group>"; };
-		C8DE149C196801AD0049545B /* lmucontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lmucontroller.h; sourceTree = "<group>"; };
+		C8DE149C196801AD0049545B /* lmucontroller.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmucontroller.c; sourceTree = "<group>"; };
 		C8DE149D196801AD0049545B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +117,7 @@
 		C8DE148E196801AD0049545B /* LightningKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				C8DE149C196801AD0049545B /* lmucontroller.h */,
+				C8DE149C196801AD0049545B /* lmucontroller.c */,
 				C8DE148F196801AD0049545B /* AppDelegate.h */,
 				C8DE1490196801AD0049545B /* AppDelegate.m */,
 				C8DE1496196801AD0049545B /* KeyMonitor.h */,

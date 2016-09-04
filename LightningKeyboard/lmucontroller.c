@@ -1,5 +1,5 @@
 //
-//  lmucontroller.h
+//  lmucontroller.c
 //  LightningKeyboard
 //
 //  Copyright (c) 2014 Shintaro Morikawa. All rights reserved.
